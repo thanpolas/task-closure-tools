@@ -21,7 +21,7 @@
       "url": "https://github.com/thanpolas/task-closure-tools/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "tasks/closureTools.js",
+  "main": "index.js",
   "engines": {
     "node": ">=0.8.0"
   },
