@@ -7,20 +7,11 @@
  * Licensed under the MIT license.
  */
 
-
-var closureTools = require('./tasks/closureTools');
-var ssCompiler = require('superstartup-closure-compiler');
-var cTools = require('closure-tools');
-
-
 module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-nodeunit');
   grunt.loadNpmTasks('grunt-release');
-
-  // initialize the tasks manually.
-  closureTools(grunt);
 
   // Project configuration.
   grunt.initConfig({
