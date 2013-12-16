@@ -28,10 +28,10 @@
   "scripts": {
     "test": "grunt test"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "grunt": "~0.4.0"
+    "grunt": "~0.4.0",
+    "grunt-release": "~0.6.0"
   },
   "keywords": [
     "Closure Compiler",

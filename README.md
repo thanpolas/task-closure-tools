@@ -20,7 +20,7 @@ Comming Soon!
 
 ## Release History
 
-- **v0.1.0**, *16 Dec 2013* Big Bang, moved codebase from original `grunt-closure-tools` repo.
+- **v0.1.1**, *16 Dec 2013* Big Bang, moved codebase from original [`grunt-closure-tools` repo](https://github.com/closureplease/grunt-closure-tools).
 
 ## License
 Copyright (c) 2013 Thanasis Polychronakis
