@@ -20,7 +20,8 @@ Comming Soon!
 
 ## Release History
 
-- **(next version)**, Fixed bug that optExecOptions was passed only to first file in list
+- **v0.1.2**, *13 Jan 2014*
+  - Fixed bug that optExecOptions was passed only to first file in list by [@stforek](https://github.com/stforek).
 - **v0.1.1**, *16 Dec 2013* Big Bang, moved codebase from original [`grunt-closure-tools` repo](https://github.com/closureplease/grunt-closure-tools).
 
 ## License
