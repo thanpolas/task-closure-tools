@@ -1,7 +1,7 @@
 {
   "name": "task-closure-tools",
   "description": "Google Closure Library Tools, Compiler, DepsWriter, Builder.",
-  "version": "0.1.3",
+  "version": "0.1.2",
   "homepage": "https://github.com/thanpolas/task-closure-tools",
   "author": {
     "name": "Thanasis Polychronakis",

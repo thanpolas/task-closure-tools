@@ -20,7 +20,8 @@ Comming Soon!
 
 ## Release History
 
-- **v0.1.3**, *20 Feb 2014* Added d32 and TieredCompilation optimization options to compiler java command
+- **v0.1.3**, *20 Feb 2014*
+  - Added d32 and TieredCompilation optimization options to compiler java command, thanks [@probins](https://github.com/probins)
 - **v0.1.2**, *13 Jan 2014*
   - Fixed bug that optExecOptions was passed only to first file in list by [@stforek](https://github.com/stforek).
 - **v0.1.1**, *16 Dec 2013* Big Bang, moved codebase from original [`grunt-closure-tools` repo](https://github.com/closureplease/grunt-closure-tools).
