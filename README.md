@@ -20,6 +20,8 @@ Comming Soon!
 
 ## Release History
 
+- **v0.1.5**, *12 Mar 2014*
+  - Support for ClosureBuilder new JVM flags Thanks [@robertdimarco](https://github.com/robertdimarco)
 - **v0.1.4**, *07 Mar 2014*
   - Properly escapes compiler filename, will fix cases where spaces existed in the filename. Thanks [@tgirardi](https://github.com/tgirardi)
 - **v0.1.3**, *20 Feb 2014*
