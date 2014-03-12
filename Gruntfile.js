@@ -12,11 +12,12 @@ module.exports = function(grunt) {
   // grunt.loadNpmTasks('grunt-contrib-watch');
   // grunt.loadNpmTasks('grunt-contrib-nodeunit');
   grunt.loadNpmTasks('grunt-release');
+  grunt.loadNpmTasks('grunt-contrib-nodeunit');
 
   // Project configuration.
   grunt.initConfig({
 
-  
+
     release: {
       options: {
         bump: true, //default: true
@@ -31,6 +32,11 @@ module.exports = function(grunt) {
         commitMessage: 'releasing v<%= version %>', //default: 'release <%= version %>'
         tagMessage: 'v<%= version %>' //default: 'Version <%= version %>'
       }
+    },
+    nodeunit: {
+      all: [
+        'test/**/*.test.js',
+      ]
     },
     watch: {
       test: {
@@ -49,14 +55,6 @@ module.exports = function(grunt) {
         tasks: ['closureDepsWriter:todoApp']
       }
     },
-    nodeunit: {
-      all: [
-        // all lib tests
-        'test/{builder,compiler,depsWriter}/**/*.js',
-        // grunt task tests
-        'test/*.js'
-      ]
-    }
   });
 
   // "npm test" runs these tasks,
@@ -66,5 +64,4 @@ module.exports = function(grunt) {
   ]);
 
   grunt.registerTask('default', ['test']);
-
 };
