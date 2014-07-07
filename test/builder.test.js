@@ -1,5 +1,6 @@
 var grunt = require('grunt');
 var sinon = require('sinon');
+var _ = require('underscore');
 var builder = require('../').builder;
 var configs = require('./configs.fix');
 
@@ -45,6 +46,17 @@ exports.builder = {
     var expected = grunt.file.read('test/expected/default-options');
 
     test.equal(actual, expected, 'Should be equal');
+
+    test.done();
+  },
+  pythonbinary_option: function( test ) {
+    test.expect(1);
+
+    var builder_actual = builder.createCommand( _.extend({}, configs.builder.withCompileOpts, { pythonBinary: 'new_python' }),
+      configs.builder.withCompileFileObj );
+    var builder_expected = grunt.file.read('test/expected/pythonbinary-options');
+
+    test.equal(builder_actual, builder_expected, 'Should be equal');
 
     test.done();
   }
