@@ -34,7 +34,8 @@
     "grunt-contrib-nodeunit": "0.3.3",
     "sinon": "1.9.0",
     "grunt-release": "~0.7.0",
-    "nodeunit": "~0.8.6"
+    "nodeunit": "~0.8.6",
+    "underscore": "~1.6.0"
   },
   "keywords": [
     "Closure Compiler",
