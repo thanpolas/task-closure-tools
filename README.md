@@ -20,6 +20,8 @@ Comming Soon!
 
 ## Release History
 
+- **v0.1.7**, *07 Jul 2014*
+  - Add new option to set Python binary path, thanks [@yxd-works](https://github.com/yxd-works).
 - **v0.1.6**, *12 Mar 2014*
   - Added test suite
   - Support for ClosureBuilder new JVM flags Thanks [@robertdimarco](https://github.com/robertdimarco)
