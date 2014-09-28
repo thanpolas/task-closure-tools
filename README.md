@@ -20,6 +20,8 @@ Comming Soon!
 
 ## Release History
 
+- **v0.1.8**, *28 Sep 2014*
+  - Add new option to pass additional java flags [@andrewpmckenzie](https://github.com/andrewpmckenzie).
 - **v0.1.7**, *07 Jul 2014*
   - Add new option to set Python binary path, thanks [@yxd-works](https://github.com/yxd-works).
 - **v0.1.6**, *12 Mar 2014*
