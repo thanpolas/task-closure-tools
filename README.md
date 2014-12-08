@@ -20,6 +20,8 @@ Comming Soon!
 
 ## Release History
 
+- **v0.1.9**, *29 Sep 2014*
+  - Better handling for cases where an empty source is provided. [@betaorbust](https://github.com/betaorbust).
 - **v0.1.8**, *29 Sep 2014*
   - Add new option to pass additional java flags [@andrewpmckenzie](https://github.com/andrewpmckenzie).
 - **v0.1.7**, *07 Jul 2014*
