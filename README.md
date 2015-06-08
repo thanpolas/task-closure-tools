@@ -20,6 +20,8 @@ Comming Soon!
 
 ## Release History
 
+- **v0.1.10**, *08 Jun 2015*
+  - Allow command line parameters. [Thank you @GreatCall-VanKirkC](https://github.com/GreatCall-VanKirkC).
 - **v0.1.9**, *29 Sep 2014*
   - Better handling for cases where an empty source is provided. [@betaorbust](https://github.com/betaorbust).
 - **v0.1.8**, *29 Sep 2014*
